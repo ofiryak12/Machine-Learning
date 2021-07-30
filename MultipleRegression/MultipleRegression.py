@@ -62,5 +62,3 @@ class Multiple_Regression():
         plt.ylabel('Profit')
         plt.suptitle('Multiple Regression prediction:Blue. Actual:Red - Average Accuracy: '+str(Acc)+'%')
         plt.show()
-mul = Multiple_Regression('50_Startups.csv',oneHotencoding=True)
-mul.Visualize()
